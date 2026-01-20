@@ -113,7 +113,7 @@ body {
   }
 
   #hero {
-    @apply h-fit lg:h-[100vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
+    @apply h-fit lg:h-[100vh] col-center mt-40 lg:mt-20 2xl:mt-[2vh];
 
     div {
       @apply relative z-10 col-center lg:translate-y-16;
@@ -307,7 +307,7 @@ body {
     }
 
     .masonry {
-      @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 text-[#F5F5F7];
+      @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 text-[#F5F5F7] max-w-5xl mx-auto;
 
       .left-column {
         @apply flex flex-col justify-between gap-5 opacity-0 -translate-y-5;
@@ -400,7 +400,7 @@ body {
   }
 
   footer {
-    @apply container mx-auto py-7 max-lg:px-5;
+    @apply container mx-auto py-7 px-5;
 
     .info {
       @apply flex-between;
